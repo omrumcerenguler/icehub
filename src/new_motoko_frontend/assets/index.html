@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ürün Yönetimi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ürün Yönetimi</h1>
+        <form id="productForm">
+            <input type="text" id="name" placeholder="Ürün Adı" required>
+            <input type="number" id="price" placeholder="Fiyat" required>
+            <textarea id="description" placeholder="Açıklama" required></textarea>
+            <button type="submit">Ürün Ekle</button>
+        </form>
+        <h2>Tüm Ürünler</h2>
+        <ul id="productList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

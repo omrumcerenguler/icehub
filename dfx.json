@@ -1,25 +1,14 @@
 {
+  "version": 1,
   "canisters": {
     "new_motoko_backend": {
-      "main": "src/new_motoko_backend/main.mo",
-      "type": "motoko"
+      "type": "motoko",
+      "source": ["src/new_motoko_backend"],
+      "main": "src/new_motoko_backend/main.mo"  
     },
     "new_motoko_frontend": {
-      "dependencies": [
-        "new_motoko_backend"
-      ],
-      "source": [
-        "src/new_motoko_frontend/assets"
-      ],
-      "type": "assets"
+      "type": "assets",
+      "source": ["new_motoko_frontend/assets"]
     }
-  },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "output_env_file": ".env",
-  "version": 1
+  }
 }

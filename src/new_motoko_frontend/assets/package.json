@@ -1,0 +1,17 @@
+{
+    "name": "new_motoko",
+    "type": "module",
+    "scripts": {
+        "start": "npm start --if-present",
+        "prebuild": "npm run prebuild --if-present",
+        "build": "npm run build --if-present",
+        "pretest": "npm run prebuild --if-present",
+        "test": "npm test --if-present"
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=7.0.0"
+    },
+    "workspaces": []  
+}
+
